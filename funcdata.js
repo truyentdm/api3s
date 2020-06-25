@@ -49,5 +49,5 @@ function getLinkDataAMZ(dataAMZ,objURL){
 		var glink = dataAMZ[gAsin][gLocal];
 		return glink;
 	}
-	return false;
+	return "";
 }
