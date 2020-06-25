@@ -25,3 +25,10 @@ function getLocal(objURL){
 	}
 	return false;
 }
+
+function getASIN(objURL){
+	if(checkLocal(objURL)){
+		return objURL[2];
+	}
+	return false;
+}
