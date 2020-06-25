@@ -32,3 +32,13 @@ function getASIN(objURL){
 	}
 	return false;
 }
+function checkDataAMZ(dataAMZ,objURL){
+	var gLocal = getLocal(objURL);
+	var gAsin = getASIN(objURL);
+	var existAS = typeof dataAMZ[gAsin] != "undefined" ? true : false;
+	var existLocal =false;
+	if(existAS){
+		existLocal= typeof dataAMZ[gAsin][gLocal] != "undefined" ? true : false;
+	}
+	return existLocal;
+}
