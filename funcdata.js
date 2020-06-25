@@ -49,3 +49,17 @@ function getLinkDataAMZ(dataAMZ,objURL){
 	}
 	return "";
 }
+
+function checkASIN(asin,data){
+  var existAS = typeof data[asin] != "undefined" ? true : false;
+  return existAS;
+}
+function myCheckAsin(fn,dataAMZCK){
+  var asin = fn.txtAsin.value;
+  document.getElementById("lblResult").innerHTML = ""
+  if(checkASIN(asin,dataAMZCK)){
+     document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"];
+  }
+
+  return true;
+}
