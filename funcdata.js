@@ -42,3 +42,12 @@ function checkDataAMZ(dataAMZ,objURL){
 	}
 	return existLocal;
 }
+function getLinkDataAMZ(dataAMZ,objURL){
+	if(checkDataAMZ(dataAMZ,objURL)){
+		var gLocal = getLocal(objURL);
+		var gAsin = getASIN(objURL);
+		var glink = dataAMZ[gAsin][gLocal];
+		return glink;
+	}
+	return false;
+}
