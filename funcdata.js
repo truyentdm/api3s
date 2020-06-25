@@ -1,7 +1,7 @@
 //
 function checkLocal(objURL){
 		for (var i = 0; i < objURL.length; i++) {
-			 if (objURL[i] == "us" || objURL[i] == "ca" || objURL[i] == "uk") {
+			 if (objURL[i] == "US" || objURL[i] == "CA" || objURL[i] == "UK") {
 				console.log("checkLocal>>>>>>>>>",true)
 				return true;
 			}
