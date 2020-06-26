@@ -115,7 +115,13 @@ var dataAMZ = {
 	B07S864GPW: {US: "https://amzn.to/2YeAuwv", CA: "", UK: ""},
 	B07CWLRXBK: {US: "https://amzn.to/2UUWn1E", CA: "", UK: ""},
 	B002635ODW: {US: "https://amzn.to/2UUWUAv", CA: "", UK: ""},
-	ASIN: {US: "1", CA: "2", UK: "3"},
+	B016J1ICDU: {US: "https://amzn.to/2Aau5sU", CA: "", UK: ""},
+	B000MDHH06: {US: "https://amzn.to/2YB4pix", CA: "", UK: ""},
+	B078W54RDC: {US: "https://amzn.to/2YBrstF", CA: "", UK: ""},
+	B00BTKAPUU: {US: "https://amzn.to/2NyHUUY", CA: "", UK: ""},
+	B07SFJXLYW: {US: "https://amzn.to/384Cp9U", CA: "", UK: ""},
+	B01D3FOIR4: {US: "https://amzn.to/3eEbW5x", CA: "", UK: ""},
+	B07ZSD95N1: {US: "https://amzn.to/2NzFB48", CA: "", UK: ""},
 	ASIN: {US: "", CA: "", UK: ""},
 	ASIN: {US: "", CA: "", UK: ""}
 }
