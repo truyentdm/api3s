@@ -117,7 +117,7 @@ var dataAMZ = {
 	B002635ODW: {US: "https://amzn.to/2UUWUAv", CA: "", UK: ""},
 	ASIN: {US: "1", CA: "2", UK: "3"},
 	ASIN: {US: "", CA: "", UK: ""},
-	ASIN: {US: "", CA: "", UK: ""},
+	ASIN: {US: "", CA: "", UK: ""}
 }
   //END
   return dataAMZ;
