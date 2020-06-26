@@ -54,11 +54,18 @@ function checkASIN(asin,data){
   var existAS = typeof data[asin] != "undefined" ? true : false;
   return existAS;
 }
+function createLink(asin,local){
+ var shortLink = "https://www.besttips3s.com/";
+ var asinShort = asin.toLowerCase();
+ var localShort = local.toLowerCase();
+ return shortLink+localShort+"/"+asinShort;
+}
 function myCheckAsin(fn,dataAMZCK){
   var asin = fn.txtAsin.value;
+    
   document.getElementById("lblResult").innerHTML = ""
   if(checkASIN(asin,dataAMZCK)){
-     document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"];
+     document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"]+"<hr/>US Short Link: "+createLink(asin,"us")+"<br/>CA Short Link: "+createLink(asin,"ca")+"<br/>UK Short Link: "+createLink(asin,"uk");
   }
 
   return true;
