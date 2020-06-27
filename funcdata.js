@@ -62,6 +62,7 @@ function createLink(asin,local){
 }
 function myCheckAsin(fn,dataAMZCK){
   var asin = fn.txtAsin.value;
+      asin = asin.toUpperCase();
       asin = asin.trim();
   document.getElementById("lblResult").innerHTML = ""
   if(checkASIN(asin,dataAMZCK)){
