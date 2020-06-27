@@ -122,6 +122,7 @@ var dataAMZ = {
 	B07SFJXLYW: {US: "https://amzn.to/384Cp9U", CA: "", UK: ""},
 	B01D3FOIR4: {US: "https://amzn.to/3eEbW5x", CA: "", UK: ""},
 	B07ZSD95N1: {US: "https://amzn.to/2NzFB48", CA: "", UK: ""},
+	B01LWA8J37: {US: "https://amzn.to/3dBa6RS", CA: "", UK: ""},
 	ASIN: {US: "", CA: "", UK: ""},
 	ASIN: {US: "", CA: "", UK: ""}
 }
