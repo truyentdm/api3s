@@ -1,4 +1,5 @@
-//
+//Function
+var shortLink = "https://www.besttips3s.com/";
 function checkLocal(objURL){
 	for (var i = 0; i < objURL.length; i++) {
 		 if (objURL[i] == "US" || objURL[i] == "CA" || objURL[i] == "UK") {
@@ -55,7 +56,6 @@ function checkASIN(asin,data){
   return existAS;
 }
 function createLink(asin,local){
- var shortLink = "https://www.besttips3s.com/";
  var asinShort = asin.toLowerCase();
  var localShort = local.toLowerCase();
  return shortLink+localShort+"/"+asinShort;
@@ -70,3 +70,30 @@ function myCheckAsin(fn,dataAMZCK){
 
   return true;
 }
+  function myToolTxt(fn,upWord){
+     var lblText = fn.txtAsin.value;
+     document.getElementById("lblResult").innerHTML = ""
+     if(upWord){
+       document.getElementById("lblResult").innerHTML = lblText.toUpperCase();
+     }else{
+       document.getElementById("lblResult").innerHTML = lblText.toLowerCase() + "<hr/>" + shortLink +"us/"+lblText.toLowerCase();
+     }
+  }
+  
+  function myLinkShort(fn){
+    document.getElementById("lblResult").innerHTML = ""
+    var lblText = fn.txtAsin.value;
+        lblText = lblText.trim();
+    var txtAsin = "";
+    var isTrue = false;
+    if(lblText!=""){
+        for (var i in dataAMZ){
+            if(dataAMZ[i]["US"]==lblText||dataAMZ[i]["CA"]==lblText||dataAMZ[i]["UK"]==lblText){
+              txtAsin = i;
+              isTrue = true;
+            }
+        }
+    }
+    document.getElementById("lblResult").innerHTML = isTrue ? "OK : "+ txtAsin + " - " + shortLink +"us/"+ txtAsin.toLowerCase() : "NOT"
+        
+  }
