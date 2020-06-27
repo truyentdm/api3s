@@ -62,7 +62,7 @@ function createLink(asin,local){
 }
 function myCheckAsin(fn,dataAMZCK){
   var asin = fn.txtAsin.value;
-    
+      asin = asin.trim();
   document.getElementById("lblResult").innerHTML = ""
   if(checkASIN(asin,dataAMZCK)){
      document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"]+"<hr/>US Short Link: "+createLink(asin,"us")+"<br/>CA Short Link: "+createLink(asin,"ca")+"<br/>UK Short Link: "+createLink(asin,"uk");
