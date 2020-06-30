@@ -1154,7 +1154,7 @@ function getData(){
 	B07RWH99KB: {US: "",CA: "",UK: ""},
 	B06XKDYD4S: {US: "",CA: "",UK: ""},
 	B07D29QNMJ: {US: "",CA: "",UK: ""},
-	B07QGS69WY: {US: "",CA: "",UK: ""},
+	B07QGS69WY: {US: "https://amzn.to/3dL1Mz7",CA: "",UK: ""},
 	B07H5H6L8L: {US: "",CA: "",UK: ""},
 	B07QMRY141: {US: "https://amzn.to/2YHrMpo",CA: "",UK: ""},
 	B07RMZV7W4: {US: "https://amzn.to/3dcISRm",CA: "",UK: ""},
