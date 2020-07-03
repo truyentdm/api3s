@@ -123,7 +123,7 @@ function htmlRedirect404(url){
 	htmlJS += ", Inc. or its affiliates.";
 	htmlJS += "</div>";
 	htmlJS += "<div class=\"errorWrap\">";
-	htmlJS += "<a class=\"homepage\" href='" + url + "'> Continue </a>";
+	htmlJS += "<a class=\"homepage\" href='" + url + "'> Continue </a> &nbsp;";
 	htmlJS += "<a class=\"homepage\" href=\"/\"> Home </a>";
 	htmlJS += "</div>";
 	htmlJS += "</div>";
