@@ -1664,8 +1664,7 @@ function getData(){
 	B000VSKAI8: {US: "https://amzn.to/2zJI5JO",CA: "",UK: ""},
 	B07D8QGJ5V: {US: "https://amzn.to/2YeQYoh",CA: "",UK: ""},
 	B01KUBW1XC: {US: "https://amzn.to/3hFoOu9",CA: "",UK: ""},
-	B000MDHH06: {US: "https://amzn.to/2YB4pix",CA: "",UK: ""},
-	: {US: "",CA: "",UK: ""}
+	B000MDHH06: {US: "https://amzn.to/2YB4pix",CA: "",UK: ""}
 	}
 	return dataAMZ;
 }
