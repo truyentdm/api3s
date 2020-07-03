@@ -113,10 +113,16 @@ function htmlRedirect404(url){
 	var htmlJS = ""
 	htmlJS += "<div class=\"widget Blog\">";
 	htmlJS += "<div class=\"errorWrap\">";
-	htmlJS += "<h4>You will be redirected to the purchase page of Amazon. ";
-	htmlJS += "<a class=\"homepage\" href='" + url + "'>Continue</a></h4>";
+	htmlJS += "<h4>You will be redirected to the purchase page of Amazon.</h4>";
+	htmlJS += "<a href='"+ location.hostname +"'>"+location.hostname+"</a>";
+	htmlJS += "is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to"
+	htmlJS += "<a href='https://amazon.com'>Amazon.com</a>";
+	htmlJS += ". Amazon, the Amazon logo, AmazonSupply, and the AmazonSupply logo are trademarks of"
+	htmlJS += "<a href='https://amazon.com'>Amazon.com</a>";
+	htmlJS += ", Inc. or its affiliates.";
+	htmlJS += "<a class=\"homepage\" href='" + url + "'>Continue</a>";
 	htmlJS += "<a class=\"homepage\" href=\"/\">Home</a>";
 	htmlJS += "</div>";
-	htmlJS += "</div>";
+	htmlJS += "</div>"
 	return htmlJS;
 }
