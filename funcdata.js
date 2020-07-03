@@ -115,7 +115,7 @@ function htmlRedirect404(url){
 	htmlJS += "<div class=\"wp_errorWrap\">";
 	htmlJS += "<div class=\"errorWrap2\">";
 	htmlJS += "<h4>You will be redirected to the purchase page of Amazon.</h4>";
-	htmlJS += "<a href='"+ location.hostname +"'> "+location.hostname+" </a>";
+	htmlJS += "<a href='/'> "+location.hostname+" </a>";
 	htmlJS += "is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to"
 	htmlJS += "<a href='https://amazon.com'> Amazon.com</a> ";
 	htmlJS += ". Amazon, the Amazon logo, AmazonSupply, and the AmazonSupply logo are trademarks of"
