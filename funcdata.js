@@ -98,3 +98,14 @@ function myCheckAsin(fn,dataAMZCK){
     document.getElementById("lblResult").innerHTML = isTrue ? "OK : "+ txtAsin + " - " + shortLink +"us/"+ txtAsin.toLowerCase() : "NOT"
         
   }
+function compareReferrer(objRef){
+	var objExt = ["youtube"];
+	for(var i=0;i < objRef.length; i++){
+		for(var j=0;j < objExt.length; j++){
+			if(objExt[j] == objRef[i]){
+				return true;
+			}
+		}
+	}
+	return false;
+}
