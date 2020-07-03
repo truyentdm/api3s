@@ -113,8 +113,8 @@ function htmlRedirect404(url){
 	var htmlJS = ""
 	htmlJS += "<div class=\"widget Blog\">";
 	htmlJS += "<div class=\"errorWrap\">";
-	htmlJS += "<h4>You will be redirected to the purchase page of Amazon.</h4>";
-	htmlJS += "<a class=\"homepage\" href='" + url + "'>Go</a>";
+	htmlJS += "<h4>You will be redirected to the purchase page of Amazon. ";
+	htmlJS += "<a class=\"homepage\" href='" + url + "'>Continue</a></h4>";
 	htmlJS += "<a class=\"homepage\" href=\"/\">Home</a>";
 	htmlJS += "</div>";
 	htmlJS += "</div>";
