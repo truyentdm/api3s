@@ -122,9 +122,9 @@ function htmlRedirect404(url){
 	htmlJS += "<a href='https://amazon.com'> Amazon.com </a>";
 	htmlJS += ", Inc. or its affiliates.";
 	htmlJS += "</div>";
-	htmlJS += "<div class=\"errorWrap2\">";
-	htmlJS += "<a class=\"homepage\" href='" + url + "'>Continue</a>";
-	htmlJS += "<a class=\"homepage\" href=\"/\">Home</a>";
+	htmlJS += "<div class=\"errorWrap\">";
+	htmlJS += "<a class=\"homepage\" href='" + url + "'> Continue </a>";
+	htmlJS += "<a class=\"homepage\" href=\"/\"> Home </a>";
 	htmlJS += "</div>";
 	htmlJS += "</div>";
 	htmlJS += "</div>";
