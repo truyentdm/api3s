@@ -1473,7 +1473,7 @@ function getData(){
 	B00YG0JVOG: {US: "https://amzn.to/2C0d59v",CA: "",UK: ""},
 	B06XKXXSFN: {US: "https://amzn.to/2DmqbhE",CA: "",UK: ""},
 	B0725VMPYD: {US: "https://amzn.to/2ALY4aR",CA: "",UK: ""},
-	B07QR6ZB1X: {US: "",CA: "",UK: ""},
+	B084H4DR2W: {US: "https://amzn.to/3gRduK9",CA: "",UK: ""},
 	B07SFJXLYW: {US: "https://amzn.to/384Cp9U",CA: "",UK: ""},
 	B01CS3JJ62: {US: "https://amzn.to/2BPqv8x",CA: "",UK: ""},
 	B00PHNFML2: {US: "https://amzn.to/2DuKwBC",CA: "",UK: ""},
@@ -1667,7 +1667,13 @@ function getData(){
 	B0002VAFVG: {US: "https://amzn.to/3gRDPrK",CA: "",UK: ""},
 	B01EGN8EXQ: {US: "https://amzn.to/2Zln6a9",CA: "",UK: ""},
 	B07DJ2Y4PJ: {US: "https://amzn.to/329Wmv6",CA: "",UK: ""},
-	B0787BVSTH: {US: "https://amzn.to/2Zkc0lX",CA: "",UK: ""}
+	B0787BVSTH: {US: "https://amzn.to/2Zkc0lX",CA: "",UK: ""},
+	B002ZDAEIS: {US: "https://amzn.to/2OmVonq",CA: "",UK: ""},
+	B004J2GUOU: {US: "https://amzn.to/3eu2HEe",CA: "",UK: ""},
+	B06Y3LV4P5: {US: "https://amzn.to/2Ol8OQD",CA: "",UK: ""},
+	B06WGLM9V1: {US: "https://amzn.to/3flpNy9",CA: "",UK: ""},
+	B07MSYTQNM: {US: "https://amzn.to/2Whz1E5",CA: "",UK: ""},
+	B07FTN21JL: {US: "https://amzn.to/32cWGt3",CA: "",UK: ""}
 	}
 	return dataAMZ;
 }
