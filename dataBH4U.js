@@ -81,7 +81,29 @@ function getData(){
 	B01N4W531Q: {US: "https://amzn.to/3ki0yj8",CA: "",UK: ""},
 	B00MKB5V1A: {US: "https://amzn.to/31x2fAy",CA: "",UK: ""},
 	B00J955FG6: {US: "https://amzn.to/3a254h7",CA: "",UK: ""},
-	B073FKF9B5: {US: "https://amzn.to/33NtkCD",CA: "",UK: ""}
+	B073FKF9B5: {US: "https://amzn.to/33NtkCD",CA: "",UK: ""},
+	B01DVQF6EY: {US: "https://amzn.to/3iBuwgx",CA: "",UK: ""},
+	B01J9PIPCQ: {US: "https://amzn.to/2XRKFGC",CA: "",UK: ""},
+	B003G45CKK: {US: "https://amzn.to/3iqCtEU",CA: "",UK: ""},
+	B076QJNK8G: {US: "https://amzn.to/3ktp2pE",CA: "",UK: ""},
+	B072PZ4LVN: {US: "https://amzn.to/2F7XSV6",CA: "",UK: ""},
+	B0792BWMV4: {US: "https://amzn.to/3fHjV1C",CA: "",UK: ""},
+	B002GTCZBA: {US: "https://amzn.to/2CiVJox",CA: "",UK: ""},
+	B06XTNWVVV: {US: "https://amzn.to/2PLnwRL",CA: "",UK: ""},
+	B008UHXUSO: {US: "https://amzn.to/2DGQ0cU",CA: "",UK: ""},
+	B07T32W8L6: {US: "https://amzn.to/3anfqs4",CA: "",UK: ""},
+	B07FP186CN: {US: "https://amzn.to/3fPJsFT",CA: "",UK: ""},
+	B00UB9R4KO: {US: "https://amzn.to/3fRxHia",CA: "",UK: ""},
+	B004T6MSIS: {US: "https://amzn.to/3gTTWFK",CA: "",UK: ""},
+	B01KGRAGRS: {US: "https://amzn.to/31Eh44E",CA: "",UK: ""},
+	B0195MZHBK: {US: "https://amzn.to/3gNgAzf",CA: "",UK: ""},
+	B074QWYM22: {US: "https://amzn.to/2XTKniy",CA: "",UK: ""},
+	B00XBC3BF0: {US: "https://amzn.to/2XOQIMb",CA: "",UK: ""},
+	B0098HR1FI: {US: "https://amzn.to/33OpfxP",CA: "",UK: ""},
+	B00540JS7C: {US: "https://amzn.to/30MBo4s",CA: "",UK: ""},
+	B01N9P4NH5: {US: "https://amzn.to/2DTOAeZ",CA: "",UK: ""},
+	B079QYYGF1: {US: "https://amzn.to/2DHBodh",CA: "",UK: ""},
+	B008HP25IK: {US: "https://amzn.to/2XN7cEf",CA: "",UK: ""}
 	}
 	return dataAMZ;
 }
