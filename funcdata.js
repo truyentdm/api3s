@@ -130,3 +130,11 @@ function htmlRedirect404(url){
 	htmlJS += "</div>";
 	return htmlJS;
 }
+
+function htmlLoading(){
+	var htmlJS = "";
+	htmlJS += "<div class=\"wp_errorWrap\">";
+	htmlJS += "Loading...";
+	htmlJS += "</div>";
+	return htmlJS;
+}
