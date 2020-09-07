@@ -138,3 +138,14 @@ function htmlLoading(text){
 	htmlJS += "</div>";
 	return htmlJS;
 }
+
+//VS 2 Short link
+function checkTo(objURL){
+	console.log(objURL);
+	for (var i = 0; i < objURL.length; i++) {
+		 if (objURL[i] == "to") {
+			return true;
+		}
+	}
+	return false;
+}
