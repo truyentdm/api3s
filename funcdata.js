@@ -138,8 +138,25 @@ function htmlLoading(text){
 	htmlJS += "</div>";
 	return htmlJS;
 }
-
+function actHTML(isSource,glink){
+	document.getElementById(&quot;Blog1&quot;).innerHTML = htmlRedirect404(glink);
+	if(isSource){
+		//Transfer
+		window.location.href = glink;
+	}
+}
 //VS 2 Short link
+
+function getLinkShortAMZ(objURL){
+	var mLeng = objURL.length-1;
+	var amzLink = "https://amzn.to/";
+
+	if(objURL[mLeng] != ""){
+		amzLink += objURL[mLeng];
+	}
+	return amzLink;
+}
+
 function checkTo(objURL){
 	console.log(objURL);
 	for (var i = 0; i < objURL.length; i++) {
