@@ -139,7 +139,7 @@ function htmlLoading(text){
 	return htmlJS;
 }
 function actHTML(isSource,glink){
-	document.getElementById(&quot;Blog1&quot;).innerHTML = htmlRedirect404(glink);
+	document.getElementById("Blog1").innerHTML = htmlRedirect404(glink);
 	if(isSource){
 		//Transfer
 		window.location.href = glink;
