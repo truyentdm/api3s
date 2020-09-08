@@ -85,7 +85,7 @@ function myCheckAsin(fn,dataAMZCK){
     var objLBL = lblText.split("/");
     var mLeng = objLBL.length - 1;
     if(direction){
-	document.getElementById("lblResult").innerHTML = "Short Link: " + shortLink + "to/" + objLBL[mLeng];
+	document.getElementById("lblResult").innerHTML = "https://amzn.to/"+ objLBL[mLeng] + "<br />Short Link: " + shortLink + "to/" + objLBL[mLeng];
     }
  }
   
