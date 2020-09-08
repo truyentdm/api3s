@@ -80,6 +80,14 @@ function myCheckAsin(fn,dataAMZCK){
        document.getElementById("lblResult").innerHTML = lblText.toLowerCase() + "<hr/>" + shortLink +"us/"+lblText.toLowerCase();
      }
   }
+ function myConvertTo(fn,direction){
+    var lblText = fn.txtAsin.value;
+    var objLBL = lblText.split("/");
+    var mLeng = objLBL.length - 1;
+    if(direction){
+	document.getElementById("lblResult").innerHTML = "Short Link: " + shortLink + "to/" + objLBL[mLeng];
+    }
+ }
   
   function myLinkShort(fn){
     document.getElementById("lblResult").innerHTML = ""
