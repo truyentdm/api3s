@@ -5,3 +5,7 @@ var mSearch = location.search.split("&");
   o[kv[0]] = kv[1];
   return o;
 },{});
+
+const getRandomInt = (min, max) => {
+  return Math.floor(Math.random() * (max - min)) + min;
+};
