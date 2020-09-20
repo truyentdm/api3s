@@ -66,7 +66,7 @@ function myCheckAsin(fn,dataAMZCK){
       asin = asin.trim();
   document.getElementById("lblResult").innerHTML = ""
   if(checkASIN(asin,dataAMZCK)){
-     document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"]+"<hr/>US Short Link: "+createLink(asin,"us")+"<br/>CA Short Link: "+createLink(asin,"ca")+"<br/>UK Short Link: "+createLink(asin,"uk");
+     document.getElementById("lblResult").innerHTML = "ASIN: " + asin + "<br/>US: " + dataAMZCK[asin]["US"] + "<br/>CA: " + dataAMZCK[asin]["CA"] + "<br/>UK: " + dataAMZCK[asin]["UK"]+"<hr/>Current Price & More Info (US) ► "+createLink(asin,"us")+"<br/>Current Price & More Info (CA) ► "+createLink(asin,"ca")+"<br/>Current Price & More Info (UK) ► "+createLink(asin,"uk");
   }
 
   return true;
