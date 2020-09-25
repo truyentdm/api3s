@@ -568,6 +568,7 @@ function getData(){
 	B01KGRAGRS: {US: "https://amzn.to/38eVoyP",CA: "https://amzn.to/32KcYJK",UK: ""},
 	B08CSNV5SX: {US: "https://amzn.to/2RKDnB6",CA: "https://amzn.to/2RGyNn9",UK: ""},
 	B06WVCR6FP: {US: "https://amzn.to/2FJVfcZ",CA: "https://amzn.to/2RNTkq2",UK: ""},
+	B07NW8SP6H: {US: "https://amzn.to/3mZ58Ev",CA: "https://amzn.to/3kNFZue",UK: ""},
 	B078YZ586K: {US: "https://amzn.to/2VReSEF",CA: "",UK: ""},
 	B008DBRFBK: {US: "https://amzn.to/37FAcSa",CA: "",UK: ""},
 	B07DTKXTXV: {US: "https://amzn.to/2VSYGTw",CA: "",UK: ""},
